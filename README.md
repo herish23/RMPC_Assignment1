@@ -5,7 +5,7 @@ Assignments for robotics motion planning and control module in the University of
 1. **Install ROS 2 Development environment**
     Install the **Development Tools** package:
     ```bash
-    sudo apt install ros-dev-tools ros-humble-ros2-control ros-humble-ros2-controllers
+    sudo apt install ros-dev-tools ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-ament-cmake
     ```
     Installing the **Desktop** or **Bare Bones** should automatically source the **ROS 2** environment but, under some circumstances you may need to do this again:
     ```bash
