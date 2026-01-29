@@ -152,6 +152,7 @@ class ForwardKinematics(Node):
     # Visualize the end effector
     def print_ee_pose(self, T0e):
         if T0e is None or not isinstance(T0e, np.ndarray) or T0e.size == 0:
+            print("Invalid Transformation Matrix!")
             return
         position = T0e[:3, 3]
         rotation_matrix = T0e[:3, :3]
