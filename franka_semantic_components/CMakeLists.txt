@@ -16,6 +16,7 @@ option(CHECK_TIDY "Adds clang-tidy tests" OFF)
 set(THIS_PACKAGE_INCLUDE_DEPENDS
     Franka
     franka_hardware
+    controller_interface
     franka_msgs
     geometry_msgs
     sensor_msgs
